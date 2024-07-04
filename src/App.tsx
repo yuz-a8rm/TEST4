@@ -11,7 +11,7 @@ export default function App() {
       <button onClick={onClickFetchUser}>データ取得</button>
       <br />
       {error ? (
-        <p style={{ color: "red" }}>データの取得に失敗しました</p>
+        <p style={{ color: "red" }}>データの取得に失敗しました!</p>
       ) : loading ? (
         <p>loading...</p>
       ) : (
